@@ -3,7 +3,7 @@
 
 	<groupId>org.diyefi</groupId>
 	<artifactId>parent</artifactId>
-	<version>0.0.5-SNAPSHOT</version>
+	<version>0.0.5</version>
 	<packaging>pom</packaging>
 
 	<name>DIYEFI.org Parent POM</name>
@@ -25,7 +25,8 @@
 		<connection>scm:git:git://github.com/diyefi/org.diyefi.parent.git</connection>
 		<url>https://github.com/diyefi/org.diyefi.parent</url><!-- Browse to here and clone to get your own repo! -->
 		<developerConnection>scm:git:git@github.com:diyefi/org.diyefi.parent.git</developerConnection>
-	</scm>
+	  <tag>0.0.5</tag>
+  </scm>
 
 	<distributionManagement>
 		<downloadUrl>http://maven.diyefi.org/content/repositories/releases/org/diyefi/parent/</downloadUrl>
